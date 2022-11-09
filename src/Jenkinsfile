@@ -1,0 +1,9 @@
+pipeline{
+  agents any{
+    stages{
+      stage("Run python file"){
+      sh "python3 run.py"
+      }
+    }
+  }
+}
